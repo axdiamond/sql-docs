@@ -116,7 +116,7 @@ CREATE SEQUENCE Test.TestSeq
 GO  
 ```  
   
- The following example alters the TestSeq sequence to have a range from 0 to 255. The sequence restarts the numbering series with 100 and increments by 50 every time that a number is generated.  
+ The following example alters the TestSeq sequence to have a range from 50 to 200. The sequence restarts the numbering series with 100 and increments by 50 every time that a number is generated.  
   
 ```  
 ALTER SEQUENCE Test. TestSeq  
